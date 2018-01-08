@@ -1,0 +1,145 @@
+/* Universal style*/
+
+ body {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+  line-height: 1.4
+}
+
+ .container {
+   max-width: 960px;
+   margin: 0 auto;
+ }
+
+/*Header section*/
+
+header {
+  background-color: black;
+}
+
+.header {
+  padding: 0.66rem 0;
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+header span {
+  font-size: 1rem;
+}
+
+/* Jumbotron section */
+
+.jumbotron {
+  background-image: url("../images/moto.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+}
+
+.new_arrival {
+  position: absolute;
+  margin-top: 9rem;
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  font-weight: bold;
+}
+
+.jumbotron h4 {
+  font-size: 1rem;
+}
+
+.jumbotron h1 {
+  font-size: 2rem;
+  padding: 0.25rem 0;
+}
+
+/* Nav section */
+
+.nav {
+  background-color: firebrick;
+}
+
+.nav nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav span {
+  margin: 0.75rem 0;
+}
+
+/* Featured section */
+.featured {
+  margin: 3rem 0;
+}
+
+.featured .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item {
+  width: 30%;
+  height: 100%;
+  border: 4px solid black;
+}
+
+.item img {
+  max-width: 100%;
+  height: 9rem;
+  padding: 2rem;
+}
+
+.img-container {
+  max-height: 100%;
+  max-width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  background-color: black;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact section */
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-method {
+  width: 35%;
+}
+
+.contact-method h2 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+#contact span {
+  color: black;
+}
+
+/* Footer section */
+
+.footer {
+  margin-top: 4rem;
+  padding: 5rem 0;
+  background-color:black;
+}
