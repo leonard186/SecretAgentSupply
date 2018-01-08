@@ -1,11 +1,15 @@
 /* Universal style*/
 
- body {
+ html {
   font-size: 18px;
   color: white;
   font-family: Helvetica;
-  line-height: 1.4
+
 }
+
+  body {
+    line-height: 1.4;
+  }
 
  .container {
    max-width: 960px;
@@ -63,6 +67,10 @@ header span {
 }
 
 /* Nav section */
+
+.tablet {
+    display:none !important;
+}
 
 .nav {
   background-color: firebrick;
@@ -142,4 +150,30 @@ header span {
   margin-top: 4rem;
   padding: 5rem 0;
   background-color:black;
+}
+
+/* Tablet view style */
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .tablet {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
 }
