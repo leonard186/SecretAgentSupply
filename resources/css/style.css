@@ -151,7 +151,7 @@ header span {
 
 /* Tablet view style */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 471px) and (max-width: 1024px) {
   html {
     font-size: 16px;
   }
@@ -185,7 +185,7 @@ header span {
 
   .new_arrival{
     margin-top: 10rem;
-    width: 100%;
+    width: 100% !important;
     padding: 1rem 2rem;
   }
 
