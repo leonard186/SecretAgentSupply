@@ -13,6 +13,7 @@
 
  .container {
    max-width: 960px;
+   max-height: auto;
    margin: 0 auto;
  }
 
@@ -74,6 +75,7 @@ header span {
 
 .nav {
   background-color: firebrick;
+  position: relative;
 }
 
 .nav nav {
@@ -174,6 +176,60 @@ header span {
   .tablet {
     display: flex !important;
     justify-content: center !important;
+  }
+
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 470px) {
+
+  .jumbotron {
+    height: 15rem;
+  }
+
+  .new_arrival{
+    margin-top: 10rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .new_arrival h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .new_arrival h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  .featured .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .watch {
+    display:none;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-method {
+    width: 90%;
+    padding: 0.5rem 0;
+  }
+
+  .footer .container {
+    text-align: center;
   }
 
 }
